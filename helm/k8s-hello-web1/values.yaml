@@ -1,0 +1,16 @@
+replicaCount: 3
+
+image:
+  repository: maortaieb/k8s-web-helm
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 3000
+
+resources:
+  limits:
+    cpu: "250m"
+    memory: "128Mi"
+
