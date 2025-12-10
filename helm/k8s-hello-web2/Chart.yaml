@@ -1,5 +1,5 @@
 apiVersion: v2
-name: k8s-hello-web1
+name: k8s-hello-web2
 description: Helm chart for k8s-web-helm app
 type: application
 version: 1.0.0

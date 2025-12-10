@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/maortaieb/k8s-web-helm
     targetRevision: main
-    path: helm/k8s-web-helm
+    path: helm/k8s-hello-web2
     helm:
       releaseName: k8s-web-helm
       valueFiles:
