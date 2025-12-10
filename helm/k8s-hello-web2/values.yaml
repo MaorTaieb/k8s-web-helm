@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: maortaieb/k8s-web-helm
+  repository: maortaieb/k8s-web-hello
   tag: latest
   pullPolicy: IfNotPresent
 
