@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: k8s-web-helm
-  namespace: argocd
+  namespace: test2
 spec:
   project: default
 
